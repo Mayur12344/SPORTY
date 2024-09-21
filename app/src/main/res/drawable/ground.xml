@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer circle of the football -->
+    <circle
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:cx="50"
+        android:cy="50"
+        android:r="48" />
+
+    <!-- Central black hexagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,40 L60,46 L60,56 L50,62 L40,56 L40,46 Z" />
+
+    <!-- Upper right pentagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,30 L68,34 L66,42 L58,42 L56,34 Z" />
+
+    <!-- Upper left pentagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M40,30 L42,34 L44,42 L36,42 L34,34 Z" />
+
+    <!-- Lower right pentagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,70 L66,64 L68,72 L62,78 L56,72 Z" />
+
+    <!-- Lower left pentagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M40,70 L44,72 L42,78 L36,72 L34,64 Z" />
+
+    <!-- Top center pentagon -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,20 L54,26 L50,32 L46,26 Z" />
+
+</vector>
